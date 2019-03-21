@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# vscode
+.vscode/
+
+# python
+__pycache__/
+
+# project
+data/
+log/
+model/
+notebook/
