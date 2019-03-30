@@ -80,7 +80,6 @@ class ResidualBlock(nn.Module):
         self.bn2 = nn.BatchNorm2d(out_ch)
 
         if self.do_downsample:
-            # self.conv3 = conv3x3(in_ch, out_ch, stride)
             self.conv3 = nn.Conv2d(in_ch, out_ch, 1, stride, bias=False)
             self.bn3 = nn.BatchNorm2d(out_ch)
 
